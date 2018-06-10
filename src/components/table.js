@@ -12,7 +12,7 @@ var neb = new Neb(new Nebulas.HttpRequest("https://mainnet.nebulas.io"));
 console.log("加载的时候输出neb："+ neb);
 // console.log("加载的时候输出neb："+ neb.HttpRequest.Account);
 // //console.log("\n\n");
-var dappAddress = "n1qWRZKiHs7Nps3fo73YSdVEi4WNB1x5gcQ";
+var dappAddress = "n1fbotGmaAQNi3jk8hrKkisQCwnz9kjLjeK";
 var Account = Nebulas.Account ;
 var api = neb.api;
 

@@ -4,7 +4,7 @@ import Nebulas from 'nebulas'
 var Neb = Nebulas.Neb ;
 var neb = new Neb(new Nebulas.HttpRequest("https://mainnet.nebulas.io"));
         //console.log("加载的时候输出neb："+ neb);
-var dappAddress = "n1qWRZKiHs7Nps3fo73YSdVEi4WNB1x5gcQ";
+var dappAddress = "n1fbotGmaAQNi3jk8hrKkisQCwnz9kjLjeK";
 var Account = Nebulas.Account ;
 var api = neb.api;
 var countrys=new Array("俄罗斯","德国","巴西","葡萄牙","阿根廷","比利时","波兰","法国","西班牙","秘鲁","瑞士",
