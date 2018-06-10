@@ -17,7 +17,7 @@ export default class myCard extends React.Component {
 
     // 获取数据
     fetchFn = () => {
-        fetch('./../public/data.json')
+        fetch('/public/data.json')
             .then((res) => { console.log(res.status);
                 console.log(res.headers.get('content-type'));
                 return res.json() })
