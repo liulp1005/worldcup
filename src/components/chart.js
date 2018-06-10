@@ -108,8 +108,15 @@ export default class myChart extends React.Component {
 
     render() {
         return (
-            <div id="container" className="chart-box">
-
+            <div>
+                <div id="container" className="chart-box">
+            </div>
+            <div style={{width: "100%",height: 100,marginTop: 20,display: "flex",justifyContent: 'center'}}>
+                <div style={{ margin: '20px 0' }} />
+                <h3> 
+                    <font color="black">      PS:合约会随机抽取10位支持冠军队的朋友们，在世界杯结束后，每个人奖励一个NAS币，并公布在网站上</font></h3>
+            
+            </div>
             </div>
         )
     }
