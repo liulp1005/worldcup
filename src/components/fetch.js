@@ -4,6 +4,9 @@ import { Card } from 'antd';
 // 引入标准Fetch及IE兼容依赖
 import 'whatwg-fetch'
 
+
+
+
 export default class myCard extends React.Component {
     constructor(props) {
         super(props)
@@ -14,7 +17,7 @@ export default class myCard extends React.Component {
 
     // 获取数据
     fetchFn = () => {
-        fetch('./../../data.json')
+        fetch('./../public/data.json')
             .then((res) => { console.log(res.status);
                 console.log(res.headers.get('content-type'));
                 return res.json() })
