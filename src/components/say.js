@@ -25,7 +25,7 @@ const cityData = {
     南美洲区: ['巴西', '阿根廷','乌拉圭','哥伦比亚','秘鲁'],
     中北美及加勒比海区: ['墨西哥','哥斯达黎加','巴拿马'],
 };
-var dappAddress = "n1ps9WwcZ8Q8b3MELBPqMzpW2eVdwaRKSeG";
+var dappAddress = "n1jZZXU4TVnWCBL4eefohCNKMhGK54sHQHh";
 var Account = Nebulas.Account ;
 var api = neb.api;
 var as_arr = new Array();

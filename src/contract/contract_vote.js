@@ -30,6 +30,8 @@ DictItem.prototype = {
 
 //mainnetwork
 //n1qWRZKiHs7Nps3fo73YSdVEi4WNB1x5gcQ
+//n1fbotGmaAQNi3jk8hrKkisQCwnz9kjLjeK
+//4142842cfcdac2342b2111cf5e4a8af0538f435876d2a3e463fb26652f61edf7
 var WorldCupVote = function () {
 
 		// 定一个了一个SuperDictionary类的属性，属性类型为字典，当前定义的属性名为repo

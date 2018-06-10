@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "react demo",
   "main": "index.js",
+  "homepage": "https://liulp1005.github.io/worldcup/",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --quiet",
     "build": "webpack",
