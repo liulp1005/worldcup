@@ -75,26 +75,31 @@ class Sider extends React.Component {
         return (
             <div>
                 <div id="leftMenu">
-                    <img src='src/assets/images/logocup.png' width="50" id="logo"/>
+                    <img src='src/assets/images/logocup.png' width="100" id="logo"/>
                     <Menu theme="dark"
                         onClick={this.handleClick}
                         style={{ width: 185 }}
-                        defaultOpenKeys={['sub1', 'sub2']}
+                        defaultOpenKeys={['sub1', 'sub2','sub3']}
                         defaultSelectedKeys={[this.state.current]}
                         mode="inline"
                     >
-                        <SubMenu key="sub1" title={<span><Icon type="appstore" /><span>世界杯社区</span></span>}>
+                        <SubMenu key="sub1" title={<span><Icon type="appstore" /><span>2018世界杯社区</span></span>}>
                             <Menu.Item key="1"><Link to="/myTable">点赞你的球队</Link></Menu.Item>
                             <Menu.Item key="2"><Link to="/myChart">球队热度排名</Link></Menu.Item>
                             <Menu.Item key="3"><Link to="/mySay">球队留言版</Link></Menu.Item>
                         </SubMenu>
-                        <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>世界杯新闻</span></span>}>
-                            <Menu.Item key="5"><Link to="/myCard">资讯</Link></Menu.Item>
+                        <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>2018世界杯新闻</span></span>}>
+                            <Menu.Item key="5"><Link to="/myCard">新闻简讯</Link></Menu.Item>
+                            
+                        </SubMenu>
+                        <SubMenu key="sub3" title={<span><Icon type="appstore" /><span>欢迎加入星云计划</span></span>}>
                             <Menu.Item key="6"><Link to="/myAnimate">关于我</Link></Menu.Item>
                         </SubMenu>
                     </Menu>
+                    <img src='src/assets/images/logonas.png' width="120" id="logo"/>
                 </div>
                 <div id="rightWrap">
+                    
                     <Menu mode="horizontal">
                         <SubMenu title={<span><Icon type="user" />{ this.state.username }</span>}>
                             <Menu.Item key="setting:1" >

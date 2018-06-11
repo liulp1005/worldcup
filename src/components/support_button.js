@@ -16,7 +16,7 @@ export default class Support_button extends Component{
       <div style={{marginTop: 0,display: "flex"}}>
         <a href="javascript:void(0)"
         onClick={this.props.support_Func}
-        style={{margin: 0,fontSize: 10}} > 打个赏吧</a>
+        style={{margin: 0,fontSize: 12}} > 打个赏吧</a>
       </div>
     )
   }
